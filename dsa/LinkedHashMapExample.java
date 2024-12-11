@@ -4,7 +4,7 @@ import java.util.Map;
 
 // Question source: https://www.hackerrank.com/challenges/java-output-formatting/problem?isFullScreen=true
 // using LinkedHashMap to sort and print all the key-values in sequence unlike HashMap
-public class Solution {
+public class LinkedHashMapExample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<String, String> myHashMap = new LinkedHashMap<>();
