@@ -5,7 +5,7 @@ class Solution{
     public static void main(String[] args){
         String s = "tlpjzdmtwderpkpmgoyrcxttiheassztncqvnfjeyxxp";
         int result = countPalindromicSubsequence(s);
-        System.out.println("Result: " + result); // 4
+        System.out.println("Result: " + result);
     }
     public static int countPalindromicSubsequence(String s) {
         int len = s.length();
